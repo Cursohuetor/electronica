@@ -1,1 +1,908 @@
-[2024-04-23 09:05:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica
+[2024-04-23 11:04:59] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-04-23 11:04:59] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2024-04-23 11:04:59] [class-ss-archive-creation-job.php:98] Pushing first task to queue: setup
+[2024-04-23 11:05:00] [class-ss-archive-creation-job.php:132] Current task: setup
+[2024-04-23 11:05:00] [class-ss-archive-creation-job.php:149] Performing task: setup
+[2024-04-23 11:05:00] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-04-23 11:05:00] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\
+[2024-04-23 11:05:00] [class-ss-setup-task.php:79] Adding origin URL to queue: http://localhost/electrica/
+[2024-04-23 11:05:00] [class-ss-setup-task.php:137] File C:\xampp\htdocs\electrica\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/electrica/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-04-23 11:05:00] [class-ss-archive-creation-job.php:171] We've found our next task: fetch_urls
+[2024-04-23 11:05:00] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-23 11:05:00] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-23 11:05:00] [class-ss-fetch-urls-task.php:55] Total pages: 2; Pages remaining: 2
+[2024-04-23 11:05:00] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/
+[2024-04-23 11:05:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-04-23 11:05:00] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795dcedd2b-ZB7Mam.tmp
+[2024-04-23 11:05:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/?simply_static_page=1
+[2024-04-23 11:05:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/?simply_static_page=1
+[2024-04-23 11:05:01] [class-ss-url-fetcher.php:103] Filesize: 136426 bytes
+[2024-04-23 11:05:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-23 11:05:01] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-04-23 11:05:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795dcedd2b-ZB7Mam.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/index.html
+[2024-04-23 11:05:01] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:02] [class-ss-fetch-urls-task.php:144] Adding 35 URLs to the queue
+[2024-04-23 11:05:02] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:02] [class-ss-fetch-urls-task.php:58] URL: C:/xampp/htdocs/electrica/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-04-23 11:05:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-04-23 11:05:02] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:02] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-04-23 11:05:02] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-04-23 11:05:02] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-23 11:05:02] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-23 11:05:02] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-23 11:05:02] [class-ss-fetch-urls-task.php:55] Total pages: 36; Pages remaining: 34
+[2024-04-23 11:05:02] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/about/
+[2024-04-23 11:05:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 36
+[2024-04-23 11:05:02] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795ded3665-gBfKwq.tmp
+[2024-04-23 11:05:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/about/?simply_static_page=3
+[2024-04-23 11:05:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/about/?simply_static_page=3
+[2024-04-23 11:05:03] [class-ss-url-fetcher.php:103] Filesize: 124903 bytes
+[2024-04-23 11:05:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-23 11:05:03] [class-ss-url-fetcher.php:233] New filename for static page: /about/index.html
+[2024-04-23 11:05:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795ded3665-gBfKwq.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/about/index.html
+[2024-04-23 11:05:03] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:03] [class-ss-fetch-urls-task.php:144] Adding 28 URLs to the queue
+[2024-04-23 11:05:03] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:03] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/portfolio/
+[2024-04-23 11:05:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 36
+[2024-04-23 11:05:03] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795dfd823d-LVEwf7.tmp
+[2024-04-23 11:05:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/portfolio/?simply_static_page=4
+[2024-04-23 11:05:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/portfolio/?simply_static_page=4
+[2024-04-23 11:05:04] [class-ss-url-fetcher.php:103] Filesize: 115189 bytes
+[2024-04-23 11:05:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-23 11:05:04] [class-ss-url-fetcher.php:233] New filename for static page: /portfolio/index.html
+[2024-04-23 11:05:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795dfd823d-LVEwf7.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/portfolio/index.html
+[2024-04-23 11:05:04] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:04] [class-ss-fetch-urls-task.php:144] Adding 22 URLs to the queue
+[2024-04-23 11:05:04] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:04] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/contact/
+[2024-04-23 11:05:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 36
+[2024-04-23 11:05:04] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e0d7a14-gBFEMp.tmp
+[2024-04-23 11:05:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/contact/?simply_static_page=5
+[2024-04-23 11:05:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/contact/?simply_static_page=5
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:103] Filesize: 120993 bytes
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:233] New filename for static page: /contact/index.html
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e0d7a14-gBFEMp.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/contact/index.html
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:144] Adding 24 URLs to the queue
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/2021/02/logo-1.png
+[2024-04-23 11:05:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 36
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e1db3ce-GM2a4m.tmp
+[2024-04-23 11:05:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/2021/02/logo-1.png?simply_static_page=6
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/2021/02/logo-1.png?simply_static_page=6
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:103] Filesize: 25343 bytes
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/02/logo-1.png
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e1db3ce-GM2a4m.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/2021/02/logo-1.png
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/2022/02/h1_hero-bg.png
+[2024-04-23 11:05:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 36
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e1e4cbe-g4Acpl.tmp
+[2024-04-23 11:05:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/2022/02/h1_hero-bg.png?simply_static_page=7
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/2022/02/h1_hero-bg.png?simply_static_page=7
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:103] Filesize: 370182 bytes
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2022/02/h1_hero-bg.png
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e1e4cbe-g4Acpl.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/2022/02/h1_hero-bg.png
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/2021/02/section-1-bg1.jpg
+[2024-04-23 11:05:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 36
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e1ea095-6wuQUV.tmp
+[2024-04-23 11:05:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/2021/02/section-1-bg1.jpg?simply_static_page=8
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/2021/02/section-1-bg1.jpg?simply_static_page=8
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:103] Filesize: 56425 bytes
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/02/section-1-bg1.jpg
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e1ea095-6wuQUV.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/2021/02/section-1-bg1.jpg
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/2021/02/computer.png
+[2024-04-23 11:05:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 36
+[2024-04-23 11:05:05] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e1f3541-dYWofj.tmp
+[2024-04-23 11:05:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/2021/02/computer.png?simply_static_page=9
+[2024-04-23 11:05:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/2021/02/computer.png?simply_static_page=9
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:103] Filesize: 11374 bytes
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/02/computer.png
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e1f3541-dYWofj.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/2021/02/computer.png
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/2021/02/ads.png
+[2024-04-23 11:05:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 36
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e206caa-6Cbgs5.tmp
+[2024-04-23 11:05:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/2021/02/ads.png?simply_static_page=10
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/2021/02/ads.png?simply_static_page=10
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:103] Filesize: 12427 bytes
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/02/ads.png
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e206caa-6Cbgs5.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/2021/02/ads.png
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/2021/02/settings.png
+[2024-04-23 11:05:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 36
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e20d6d0-dexLzW.tmp
+[2024-04-23 11:05:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/2021/02/settings.png?simply_static_page=11
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/2021/02/settings.png?simply_static_page=11
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:103] Filesize: 11930 bytes
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/02/settings.png
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e20d6d0-dexLzW.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/2021/02/settings.png
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/2021/02/portfolio-4.png
+[2024-04-23 11:05:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 36
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e2125f3-KGmpP8.tmp
+[2024-04-23 11:05:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/2021/02/portfolio-4.png?simply_static_page=12
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/2021/02/portfolio-4.png?simply_static_page=12
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:103] Filesize: 458704 bytes
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/02/portfolio-4.png
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e2125f3-KGmpP8.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/2021/02/portfolio-4.png
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/2021/02/portfolio-2.png
+[2024-04-23 11:05:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 36
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e21ae5f-A051zi.tmp
+[2024-04-23 11:05:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/2021/02/portfolio-2.png?simply_static_page=13
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/2021/02/portfolio-2.png?simply_static_page=13
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:103] Filesize: 731926 bytes
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/02/portfolio-2.png
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e21ae5f-A051zi.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/2021/02/portfolio-2.png
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/2021/02/portfolio-7.png
+[2024-04-23 11:05:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 36
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e225a2d-qGmt5m.tmp
+[2024-04-23 11:05:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/2021/02/portfolio-7.png?simply_static_page=14
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/2021/02/portfolio-7.png?simply_static_page=14
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:103] Filesize: 1179006 bytes
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/02/portfolio-7.png
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e225a2d-qGmt5m.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/2021/02/portfolio-7.png
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/2021/02/male-3.jpg
+[2024-04-23 11:05:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 36
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e231e6c-wM430L.tmp
+[2024-04-23 11:05:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/2021/02/male-3.jpg?simply_static_page=15
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/2021/02/male-3.jpg?simply_static_page=15
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:103] Filesize: 16981 bytes
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/02/male-3.jpg
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e231e6c-wM430L.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/2021/02/male-3.jpg
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/2021/02/female-3.jpg
+[2024-04-23 11:05:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 36
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e23ab4a-vASlF2.tmp
+[2024-04-23 11:05:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/2021/02/female-3.jpg?simply_static_page=16
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/2021/02/female-3.jpg?simply_static_page=16
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:103] Filesize: 19312 bytes
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/02/female-3.jpg
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e23ab4a-vASlF2.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/2021/02/female-3.jpg
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/2021/02/male-1.jpg
+[2024-04-23 11:05:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 36
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e242b0a-1fhWsU.tmp
+[2024-04-23 11:05:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/2021/02/male-1.jpg?simply_static_page=17
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/2021/02/male-1.jpg?simply_static_page=17
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:103] Filesize: 19411 bytes
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/02/male-1.jpg
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e242b0a-1fhWsU.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/2021/02/male-1.jpg
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/feed/
+[2024-04-23 11:05:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 36
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e247973-nJsDYg.tmp
+[2024-04-23 11:05:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/feed/?simply_static_page=18
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/feed/?simply_static_page=18
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:103] Filesize: 1713 bytes
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e247973-nJsDYg.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/feed/index.xml
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:144] Adding 5 URLs to the queue
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/comments/feed/
+[2024-04-23 11:05:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 36
+[2024-04-23 11:05:06] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e2d9d9c-4ULHJN.tmp
+[2024-04-23 11:05:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/comments/feed/?simply_static_page=19
+[2024-04-23 11:05:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/comments/feed/?simply_static_page=19
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:103] Filesize: 1732 bytes
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e2d9d9c-4ULHJN.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/comments/feed/index.xml
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:144] Adding 4 URLs to the queue
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-04-23 11:05:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 36
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e37b546-72G1vX.tmp
+[2024-04-23 11:05:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=20
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=20
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:103] Filesize: 42933 bytes
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e37b546-72G1vX.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/themes/astra/assets/css/minified/main.min.css
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-includes/css/dist/block-library/style.min.css
+[2024-04-23 11:05:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 36
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e387449-Ch0PLe.tmp
+[2024-04-23 11:05:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-includes/css/dist/block-library/style.min.css?simply_static_page=21
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-includes/css/dist/block-library/style.min.css?simply_static_page=21
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:103] Filesize: 113381 bytes
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e387449-Ch0PLe.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-includes/css/dist/block-library/style.min.css
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css
+[2024-04-23 11:05:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 36
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e38f0c4-lBfUCb.tmp
+[2024-04-23 11:05:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css?simply_static_page=22
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css?simply_static_page=22
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:103] Filesize: 225 bytes
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e38f0c4-lBfUCb.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-css-1201.css
+[2024-04-23 11:05:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 36
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e3932d3-rNuTsz.tmp
+[2024-04-23 11:05:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-css-1201.css?simply_static_page=23
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-css-1201.css?simply_static_page=23
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:103] Filesize: 273005 bytes
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/1000/uag-css-1201.css
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e3932d3-rNuTsz.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/uag-plugin/assets/1000/uag-css-1201.css
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:144] Adding 1 URLs to the queue
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-json/
+[2024-04-23 11:05:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 36
+[2024-04-23 11:05:07] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e39cdc4-apRJY7.tmp
+[2024-04-23 11:05:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-json/?simply_static_page=24
+[2024-04-23 11:05:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-json/?simply_static_page=24
+[2024-04-23 11:05:08] [class-ss-url-fetcher.php:103] Filesize: 341982 bytes
+[2024-04-23 11:05:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-04-23 11:05:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
+[2024-04-23 11:05:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e39cdc4-apRJY7.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-json/index.html
+[2024-04-23 11:05:08] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:08] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:08] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:08] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-json/wp/v2/pages/1201
+[2024-04-23 11:05:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 36
+[2024-04-23 11:05:08] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e42eb02-dEKA7e.tmp
+[2024-04-23 11:05:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-json/wp/v2/pages/1201?simply_static_page=25
+[2024-04-23 11:05:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-json/wp/v2/pages/1201?simply_static_page=25
+[2024-04-23 11:05:08] [class-ss-url-fetcher.php:103] Filesize: 31913 bytes
+[2024-04-23 11:05:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-04-23 11:05:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/1201\index.html
+[2024-04-23 11:05:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e42eb02-dEKA7e.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-json/wp/v2/pages/1201\index.html
+[2024-04-23 11:05:08] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:08] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:08] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:08] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/xmlrpc.php
+[2024-04-23 11:05:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 36
+[2024-04-23 11:05:08] [class-ss-fetch-urls-task.php:65] Excludable found: URL: http://localhost/electrica/xmlrpc.php
+[2024-04-23 11:05:08] [class-ss-fetch-urls-task.php:75] Skipping URL because it is no-save and no-follow
+[2024-04-23 11:05:08] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-json/oembed/1.0/embed
+[2024-04-23 11:05:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 36
+[2024-04-23 11:05:08] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e4bda77-vKIhCM.tmp
+[2024-04-23 11:05:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-json/oembed/1.0/embed?simply_static_page=27
+[2024-04-23 11:05:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-json/oembed/1.0/embed?simply_static_page=27
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:103] Filesize: 125 bytes
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-04-23 11:05:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 36
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e54cfb4-Kz3ECz.tmp
+[2024-04-23 11:05:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=28
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=28
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:103] Filesize: 21836 bytes
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e54cfb4-Kz3ECz.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-04-23 11:05:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 36
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e5590bd-T91jRg.tmp
+[2024-04-23 11:05:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?simply_static_page=29
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?simply_static_page=29
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:103] Filesize: 8171 bytes
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e5590bd-T91jRg.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-04-23 11:05:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 36
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e564104-Til7eg.tmp
+[2024-04-23 11:05:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-includes/js/dist/vendor/regenerator-runtime.min.js?simply_static_page=30
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-includes/js/dist/vendor/regenerator-runtime.min.js?simply_static_page=30
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:103] Filesize: 6625 bytes
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e564104-Til7eg.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-04-23 11:05:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 36
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e56fc83-4wlixk.tmp
+[2024-04-23 11:05:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-includes/js/dist/vendor/wp-polyfill.min.js?simply_static_page=31
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-includes/js/dist/vendor/wp-polyfill.min.js?simply_static_page=31
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:103] Filesize: 38590 bytes
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e56fc83-4wlixk.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-includes/js/dist/dom-ready.min.js
+[2024-04-23 11:05:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 36
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e581485-xZvPyr.tmp
+[2024-04-23 11:05:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-includes/js/dist/dom-ready.min.js?simply_static_page=32
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-includes/js/dist/dom-ready.min.js?simply_static_page=32
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:103] Filesize: 457 bytes
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/dom-ready.min.js
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e581485-xZvPyr.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-includes/js/dist/dom-ready.min.js
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js
+[2024-04-23 11:05:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 36
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e58b474-0FrpDw.tmp
+[2024-04-23 11:05:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js?simply_static_page=33
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js?simply_static_page=33
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:103] Filesize: 6581 bytes
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e58b474-0FrpDw.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/plugins/astra-sites/inc/lib/onboarding/assets/dist/template-preview/main.js
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js
+[2024-04-23 11:05:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 36
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e5975d0-I340zd.tmp
+[2024-04-23 11:05:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js?simply_static_page=34
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js?simply_static_page=34
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:103] Filesize: 4479 bytes
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e5975d0-I340zd.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/spectra-block-positioning.min.js
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/forms.min.js
+[2024-04-23 11:05:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 36
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e59b66f-B4vZ7z.tmp
+[2024-04-23 11:05:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/forms.min.js?simply_static_page=35
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/forms.min.js?simply_static_page=35
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:103] Filesize: 6639 bytes
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/forms.min.js
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e59b66f-B4vZ7z.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/forms.min.js
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-js-1201.js
+[2024-04-23 11:05:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 36
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e5a08cd-5bpsl4.tmp
+[2024-04-23 11:05:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-js-1201.js?simply_static_page=36
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-js-1201.js?simply_static_page=36
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:103] Filesize: 1496 bytes
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/1000/uag-js-1201.js
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e5a08cd-5bpsl4.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/uag-plugin/assets/1000/uag-js-1201.js
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:09] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 36 pages/files
+[2024-04-23 11:05:09] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-23 11:05:09] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-23 11:05:09] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:55] Total pages: 49; Pages remaining: 13
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/2021/02/photo-about-me.jpg
+[2024-04-23 11:05:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 49
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e5a7e01-ETFEFP.tmp
+[2024-04-23 11:05:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/2021/02/photo-about-me.jpg?simply_static_page=37
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/2021/02/photo-about-me.jpg?simply_static_page=37
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:103] Filesize: 59863 bytes
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/02/photo-about-me.jpg
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e5a7e01-ETFEFP.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/2021/02/photo-about-me.jpg
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-css-1203.css
+[2024-04-23 11:05:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 49
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e5ac855-8FS6OS.tmp
+[2024-04-23 11:05:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-css-1203.css?simply_static_page=38
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-css-1203.css?simply_static_page=38
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:103] Filesize: 135689 bytes
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/1000/uag-css-1203.css
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e5ac855-8FS6OS.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/uag-plugin/assets/1000/uag-css-1203.css
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-json/wp/v2/pages/1203
+[2024-04-23 11:05:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 49
+[2024-04-23 11:05:09] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e5ba7e0-yS4ijH.tmp
+[2024-04-23 11:05:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-json/wp/v2/pages/1203?simply_static_page=39
+[2024-04-23 11:05:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-json/wp/v2/pages/1203?simply_static_page=39
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:103] Filesize: 19638 bytes
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/1203\index.html
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e5ba7e0-yS4ijH.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-json/wp/v2/pages/1203\index.html
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-js-1203.js
+[2024-04-23 11:05:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 49
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e65368e-I9ymAX.tmp
+[2024-04-23 11:05:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-js-1203.js?simply_static_page=40
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-js-1203.js?simply_static_page=40
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:103] Filesize: 1507 bytes
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/1000/uag-js-1203.js
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e65368e-I9ymAX.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/uag-plugin/assets/1000/uag-js-1203.js
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-css-1205.css
+[2024-04-23 11:05:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 49
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e657425-9TL0F2.tmp
+[2024-04-23 11:05:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-css-1205.css?simply_static_page=41
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-css-1205.css?simply_static_page=41
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:103] Filesize: 64047 bytes
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/1000/uag-css-1205.css
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e657425-9TL0F2.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/uag-plugin/assets/1000/uag-css-1205.css
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-json/wp/v2/pages/1205
+[2024-04-23 11:05:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 49
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e663c2e-BOVyII.tmp
+[2024-04-23 11:05:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-json/wp/v2/pages/1205?simply_static_page=42
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-json/wp/v2/pages/1205?simply_static_page=42
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:103] Filesize: 9497 bytes
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/1205\index.html
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e663c2e-BOVyII.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-json/wp/v2/pages/1205\index.html
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-css-1207.css
+[2024-04-23 11:05:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 49
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e6e9784-1TeYLX.tmp
+[2024-04-23 11:05:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-css-1207.css?simply_static_page=43
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-css-1207.css?simply_static_page=43
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:103] Filesize: 90630 bytes
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/1000/uag-css-1207.css
+[2024-04-23 11:05:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e6e9784-1TeYLX.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/uag-plugin/assets/1000/uag-css-1207.css
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:144] Adding 1 URLs to the queue
+[2024-04-23 11:05:10] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:11] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-json/wp/v2/pages/1207
+[2024-04-23 11:05:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 49
+[2024-04-23 11:05:11] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e700d2c-MFZLYR.tmp
+[2024-04-23 11:05:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-json/wp/v2/pages/1207?simply_static_page=44
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-json/wp/v2/pages/1207?simply_static_page=44
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:103] Filesize: 14724 bytes
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/pages/1207\index.html
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e700d2c-MFZLYR.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-json/wp/v2/pages/1207\index.html
+[2024-04-23 11:05:11] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:11] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:11] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:11] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-js-1207.js
+[2024-04-23 11:05:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 49
+[2024-04-23 11:05:11] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e788679-0XoM3n.tmp
+[2024-04-23 11:05:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-js-1207.js?simply_static_page=45
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/uag-plugin/assets/1000/uag-js-1207.js?simply_static_page=45
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:103] Filesize: 1507 bytes
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/uag-plugin/assets/1000/uag-js-1207.js
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e788679-0XoM3n.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/uag-plugin/assets/1000/uag-js-1207.js
+[2024-04-23 11:05:11] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:11] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:11] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:11] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica
+[2024-04-23 11:05:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 49
+[2024-04-23 11:05:11] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e791efe-aftAnB.tmp
+[2024-04-23 11:05:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica?simply_static_page=46
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica?simply_static_page=46
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:103] Filesize: 356 bytes
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-04-23 11:05:11] [class-ss-fetch-urls-task.php:190] redirect_url: http://localhost/electrica/
+[2024-04-23 11:05:11] [class-ss-fetch-urls-task.php:199] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-04-23 11:05:11] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/hola-mundo/
+[2024-04-23 11:05:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 49
+[2024-04-23 11:05:11] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e795b7b-YBJ7Ph.tmp
+[2024-04-23 11:05:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/hola-mundo/?simply_static_page=47
+[2024-04-23 11:05:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/hola-mundo/?simply_static_page=47
+[2024-04-23 11:05:12] [class-ss-url-fetcher.php:103] Filesize: 110640 bytes
+[2024-04-23 11:05:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-23 11:05:12] [class-ss-url-fetcher.php:233] New filename for static page: /hola-mundo/index.html
+[2024-04-23 11:05:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e795b7b-YBJ7Ph.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/hola-mundo/index.html
+[2024-04-23 11:05:12] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:12] [class-ss-fetch-urls-task.php:144] Adding 24 URLs to the queue
+[2024-04-23 11:05:12] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:12] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/hola-mundo/feed/
+[2024-04-23 11:05:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 49
+[2024-04-23 11:05:12] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e8b40df-lqEfT2.tmp
+[2024-04-23 11:05:12] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/hola-mundo/feed/?simply_static_page=48
+[2024-04-23 11:05:12] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/hola-mundo/feed/?simply_static_page=48
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:103] Filesize: 1723 bytes
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:233] New filename for static page: /hola-mundo/feed/index.xml
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e8b40df-lqEfT2.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/hola-mundo/feed/index.xml
+[2024-04-23 11:05:13] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:13] [class-ss-fetch-urls-task.php:144] Adding 3 URLs to the queue
+[2024-04-23 11:05:13] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:13] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/2021/02/web-developer-bg-min.jpg
+[2024-04-23 11:05:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 49
+[2024-04-23 11:05:13] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e94dda4-pHEqFv.tmp
+[2024-04-23 11:05:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/2021/02/web-developer-bg-min.jpg?simply_static_page=49
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/2021/02/web-developer-bg-min.jpg?simply_static_page=49
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:103] Filesize: 61945 bytes
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/02/web-developer-bg-min.jpg
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e94dda4-pHEqFv.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/2021/02/web-developer-bg-min.jpg
+[2024-04-23 11:05:13] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:13] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:13] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:13] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 36 of 49 pages/files
+[2024-04-23 11:05:13] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-23 11:05:13] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-23 11:05:13] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-23 11:05:13] [class-ss-fetch-urls-task.php:55] Total pages: 54; Pages remaining: 5
+[2024-04-23 11:05:13] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-content/uploads/2021/02/hero2-bg.jpg
+[2024-04-23 11:05:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 54
+[2024-04-23 11:05:13] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e954b9f-1N0hLU.tmp
+[2024-04-23 11:05:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-content/uploads/2021/02/hero2-bg.jpg?simply_static_page=50
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-content/uploads/2021/02/hero2-bg.jpg?simply_static_page=50
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:103] Filesize: 54144 bytes
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2021/02/hero2-bg.jpg
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e954b9f-1N0hLU.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-content/uploads/2021/02/hero2-bg.jpg
+[2024-04-23 11:05:13] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:13] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:13] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:13] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/category/sin-categoria/
+[2024-04-23 11:05:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 54
+[2024-04-23 11:05:13] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795e95be3b-qEJj9T.tmp
+[2024-04-23 11:05:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/category/sin-categoria/?simply_static_page=51
+[2024-04-23 11:05:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/category/sin-categoria/?simply_static_page=51
+[2024-04-23 11:05:14] [class-ss-url-fetcher.php:103] Filesize: 105132 bytes
+[2024-04-23 11:05:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-23 11:05:14] [class-ss-url-fetcher.php:233] New filename for static page: /category/sin-categoria/index.html
+[2024-04-23 11:05:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795e95be3b-qEJj9T.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/category/sin-categoria/index.html
+[2024-04-23 11:05:14] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:14] [class-ss-fetch-urls-task.php:144] Adding 22 URLs to the queue
+[2024-04-23 11:05:14] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:14] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/author/admin/
+[2024-04-23 11:05:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 54
+[2024-04-23 11:05:14] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795ea61ac1-sH2w5W.tmp
+[2024-04-23 11:05:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/author/admin/?simply_static_page=52
+[2024-04-23 11:05:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/author/admin/?simply_static_page=52
+[2024-04-23 11:05:15] [class-ss-url-fetcher.php:103] Filesize: 105667 bytes
+[2024-04-23 11:05:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-23 11:05:15] [class-ss-url-fetcher.php:233] New filename for static page: /author/admin/index.html
+[2024-04-23 11:05:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795ea61ac1-sH2w5W.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/author/admin/index.html
+[2024-04-23 11:05:15] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:15] [class-ss-fetch-urls-task.php:144] Adding 22 URLs to the queue
+[2024-04-23 11:05:15] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:15] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-json/wp/v2/posts/1
+[2024-04-23 11:05:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 54
+[2024-04-23 11:05:15] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795eb70160-bS5kcI.tmp
+[2024-04-23 11:05:15] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-json/wp/v2/posts/1?simply_static_page=53
+[2024-04-23 11:05:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-json/wp/v2/posts/1?simply_static_page=53
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:103] Filesize: 4813 bytes
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/posts/1\index.html
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795eb70160-bS5kcI.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-json/wp/v2/posts/1\index.html
+[2024-04-23 11:05:16] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:16] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:16] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:16] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-includes/js/comment-reply.min.js
+[2024-04-23 11:05:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 54
+[2024-04-23 11:05:16] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795ec06fec-17DTSF.tmp
+[2024-04-23 11:05:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-includes/js/comment-reply.min.js?simply_static_page=54
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-includes/js/comment-reply.min.js?simply_static_page=54
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795ec06fec-17DTSF.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-includes/js/comment-reply.min.js
+[2024-04-23 11:05:16] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:16] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:16] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:16] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 49 of 54 pages/files
+[2024-04-23 11:05:16] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-23 11:05:16] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-23 11:05:16] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-23 11:05:16] [class-ss-fetch-urls-task.php:55] Total pages: 58; Pages remaining: 4
+[2024-04-23 11:05:16] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/category/sin-categoria/feed/
+[2024-04-23 11:05:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 58
+[2024-04-23 11:05:16] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795ec0fa02-V4vm3c.tmp
+[2024-04-23 11:05:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/category/sin-categoria/feed/?simply_static_page=55
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/category/sin-categoria/feed/?simply_static_page=55
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:103] Filesize: 1759 bytes
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:233] New filename for static page: /category/sin-categoria/feed/index.xml
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795ec0fa02-V4vm3c.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/category/sin-categoria/feed/index.xml
+[2024-04-23 11:05:16] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:16] [class-ss-fetch-urls-task.php:144] Adding 5 URLs to the queue
+[2024-04-23 11:05:16] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:16] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-json/wp/v2/categories/1
+[2024-04-23 11:05:16] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 58
+[2024-04-23 11:05:16] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795ec94d8d-5etXnD.tmp
+[2024-04-23 11:05:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-json/wp/v2/categories/1?simply_static_page=56
+[2024-04-23 11:05:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-json/wp/v2/categories/1?simply_static_page=56
+[2024-04-23 11:05:17] [class-ss-url-fetcher.php:103] Filesize: 636 bytes
+[2024-04-23 11:05:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-04-23 11:05:17] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/categories/1\index.html
+[2024-04-23 11:05:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795ec94d8d-5etXnD.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-json/wp/v2/categories/1\index.html
+[2024-04-23 11:05:17] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:17] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:17] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:17] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/author/admin/feed/
+[2024-04-23 11:05:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 58
+[2024-04-23 11:05:17] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795ed25254-e7pOvG.tmp
+[2024-04-23 11:05:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/author/admin/feed/?simply_static_page=57
+[2024-04-23 11:05:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/author/admin/feed/?simply_static_page=57
+[2024-04-23 11:05:17] [class-ss-url-fetcher.php:103] Filesize: 1740 bytes
+[2024-04-23 11:05:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-04-23 11:05:17] [class-ss-url-fetcher.php:233] New filename for static page: /author/admin/feed/index.xml
+[2024-04-23 11:05:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795ed25254-e7pOvG.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/author/admin/feed/index.xml
+[2024-04-23 11:05:17] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:17] [class-ss-fetch-urls-task.php:144] Adding 5 URLs to the queue
+[2024-04-23 11:05:17] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:17] [class-ss-fetch-urls-task.php:58] URL: http://localhost/electrica/wp-json/wp/v2/users/1
+[2024-04-23 11:05:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 58
+[2024-04-23 11:05:17] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-23 11:05:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\usuario\AppData\Local\Temp/662795edab6ee-31R7bd.tmp
+[2024-04-23 11:05:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/electrica/wp-json/wp/v2/users/1?simply_static_page=58
+[2024-04-23 11:05:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/electrica/wp-json/wp/v2/users/1?simply_static_page=58
+[2024-04-23 11:05:18] [class-ss-url-fetcher.php:103] Filesize: 604 bytes
+[2024-04-23 11:05:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-04-23 11:05:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/wp/v2/users/1\index.html
+[2024-04-23 11:05:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\usuario\AppData\Local\Temp/662795edab6ee-31R7bd.tmp to C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299/wp-json/wp/v2/users/1\index.html
+[2024-04-23 11:05:18] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-23 11:05:18] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-23 11:05:18] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-23 11:05:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 54 of 58 pages/files
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-23 11:05:18] [class-ss-fetch-urls-task.php:55] Total pages: 58; Pages remaining: 0
+[2024-04-23 11:05:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 58 of 58 pages/files
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:171] We've found our next task: transfer_files_locally
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:132] Current task: transfer_files_locally
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:149] Performing task: transfer_files_locally
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:77] Total pages: 54; Pages remaining: 50
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:96] Cannot copy C:/xampp/htdocs/electrica/wp-content/uploads/simply-static/temp-files/simply-static-1-1713870299/wp-json/wp/v2/pages/1201/index.html to C:/xampp/htdocs/electrica/wp-json/wp/v2/pages/1201/index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:96] Cannot copy C:/xampp/htdocs/electrica/wp-content/uploads/simply-static/temp-files/simply-static-1-1713870299/wp-json/wp/v2/pages/1203/index.html to C:/xampp/htdocs/electrica/wp-json/wp/v2/pages/1203/index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:96] Cannot copy C:/xampp/htdocs/electrica/wp-content/uploads/simply-static/temp-files/simply-static-1-1713870299/wp-json/wp/v2/pages/1205/index.html to C:/xampp/htdocs/electrica/wp-json/wp/v2/pages/1205/index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:96] Cannot copy C:/xampp/htdocs/electrica/wp-content/uploads/simply-static/temp-files/simply-static-1-1713870299/wp-json/wp/v2/pages/1207/index.html to C:/xampp/htdocs/electrica/wp-json/wp/v2/pages/1207/index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:96] Cannot copy C:/xampp/htdocs/electrica/wp-content/uploads/simply-static/temp-files/simply-static-1-1713870299/wp-json/wp/v2/posts/1/index.html to C:/xampp/htdocs/electrica/wp-json/wp/v2/posts/1/index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-task.php:44] Status message: [transfer_files_locally] Copied 4 of 54 files
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:177] We're not done with the transfer_files_locally task yet
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:132] Current task: transfer_files_locally
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:149] Performing task: transfer_files_locally
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:77] Total pages: 54; Pages remaining: 4
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:96] Cannot copy C:/xampp/htdocs/electrica/wp-content/uploads/simply-static/temp-files/simply-static-1-1713870299/wp-json/wp/v2/categories/1/index.html to C:/xampp/htdocs/electrica/wp-json/wp/v2/categories/1/index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:96] Cannot copy C:/xampp/htdocs/electrica/wp-content/uploads/simply-static/temp-files/simply-static-1-1713870299/wp-json/wp/v2/users/1/index.html to C:/xampp/htdocs/electrica/wp-json/wp/v2/users/1/index.html
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:160] Transferring 404 Page
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:163] No 404 Page found at C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\temp-files/simply-static-1-1713870299\404\index.html
+[2024-04-23 11:05:18] [class-ss-task.php:44] Status message: [transfer_files_locally] Copied 50 of 54 files
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:177] We're not done with the transfer_files_locally task yet
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:132] Current task: transfer_files_locally
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:149] Performing task: transfer_files_locally
+[2024-04-23 11:05:18] [class-ss-transfer-files-locally-task.php:77] Total pages: 54; Pages remaining: 0
+[2024-04-23 11:05:18] [class-ss-task.php:44] Status message: [transfer_files_locally] Copied 54 of 54 files
+[2024-04-23 11:05:18] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://cursohuetor.github.io/electronica/" target="_blank">https://cursohuetor.github.io/electronica/</a>
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:171] We've found our next task: wrapup
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:132] Current task: wrapup
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:149] Performing task: wrapup
+[2024-04-23 11:05:18] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-04-23 11:05:18] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:166] This task is done and there are no more tasks, time to complete the job
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:193] Completing the job
+[2024-04-23 11:05:18] [class-ss-archive-creation-job.php:320] Status message: [done] Done! Finished in 00:00:19

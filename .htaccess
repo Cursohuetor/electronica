@@ -14,3 +14,12 @@ RewriteRule . /electrica/index.php [L]
 </IfModule>
 
 # END WordPress
+# BEGIN Simply Static
+# Las directivas (líneas) entre «BEGIN Simply Static» y «END Simply Static» son
+# generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
+<Files "C:\xampp\htdocs\electrica/wp-content/uploads\simply-static\2a2f7e0f2baf9f8ce5bcc0dd9d888df8-debug.txt">
+require all denied
+require host localhost
+</Files>
+# END Simply Static
